@@ -1,7 +1,9 @@
 📢 Chụp ảnh, Phân tích ảnh bằng AI và gửi Thông báo lên điện thoại, telegram và ra loa nếu Cảm biến kích hoạt
 Phiên bản: 1.0
 
-
+Sử dụng các Intergrations sau:
+1- https://www.home-assistant.io/integrations/google_generative_ai_conversation/
+2- https://www.home-assistant.io/integrations/telegram_polling/
 
 1- Các cảm biến dùng trong Blueprints: Motion(Chuyển động), Presnces(Hiện diện), Door(Cửa)
 
