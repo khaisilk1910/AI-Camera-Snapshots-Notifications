@@ -1,0 +1,63 @@
+📢 Chụp ảnh, Phân tích ảnh bằng AI và gửi Thông báo lên điện thoại, telegram và ra loa nếu Cảm biến kích hoạt
+Phiên bản: 1.0
+
+1- Các cảm biến dùng trong Blueprints: Motion(Chuyển động), Presnces(Hiện diện), Door(Cửa)
+
+2- Thông báo phân tích hình ảnh bằng AI lên ứng dụng Home Assistant, Telegram và TTS ra Loa được tích hợp vào Home Assistant 💬🔉
+
+3- Chỉ thông báo khi phát hiện Có Người trong ảnh
+
+4- Có thể tùy chọn gửi thông báo lên nhiều Điện thoại, Telegram và lên nhiều Loa được tính hợp trong Home Assistant.
+
+5- Có thể thêm nhiều Hành động tùy chọn nếu muốn thực hiện.
+
+6- Có thể thêm nhiều Điều kiện để chạy Automation
+
+Tiến trình: - Nhấn để mở rộng
+Motion sensor:
+
+Chọn cảm biến muốn kích hoạt từ danh sách cảm biến để chạy Automation.
+Camera:
+
+Chọn camera từ danh sách để chụp ảnh.
+Location save Snapshots Option (Optional):
+
+Chọn vị trí lưu ảnh chụp.
+Thư mục media mặc định. Nếu dùng media phải cấu hình thêm trong config.yaml thư mục media_dirs Click Here
+Muốn đổi sang thư mục www thì chọn WWW Folder. Bạn cần tạo folder www trong thư mục config.
+Mobile App Notify: Chọn điện thoại muốn đẩy thông báo nếu muốn. Mặc định không Bật.
+
+Use The Mobile App Notify Option (Optional): Chọn Enable Mobile App Notify Options để bật tính năng thông báo lên Điện thoại.
+Is it an Android or iOS device?: Chọn hệ điều hành điện thoại đang sử dụng muốn đẩy thông báo.
+Devices Notified: Chọn Điện thoại muốn đẩy thông báo lên.
+Title: Nhập Tiêu đề cho thông báo trên điện thoại. Có thể dùng code HTML để thiết lập màu sắc, in đậm cho nội dung của Tiêu đề.
+Status Bar Icon: Thiết lập icon hiển thị trên thông báo của điện thoại.
+Notification Color: Chọn màu sắc hiển thị của nền icon trên thông báo của điện thoại.
+Telegram Notifications Settings: Tùy chọn cho việc đẩy thông báo lên Telegram. Mặc định Tắt.
+
+Use Telegram Notifications Option (Optional): Chọn Enable Telegram Notifications để bật tính năng thông báo lên Telegram.
+Telegram Group ID: Nhập Chat ID Telegram. Nếu đẩy vào Group thì nhập Topic ID bên dưới.
+Telegram Topic ID: Nhập Topic ID nếu muốn đẩy thông báo vào Topic của Group. Không sử dụng Group thì để trống.
+Speakers Settings: Bật tính năng thông báo nội dung ra Loa được tích hợp vào Home Assistant. Mặc định không Bật.
+
+Use The Text-to-Speech Announcement Option (Optional): Chọn Enable Text-to-Speech Announcements để - **bật tính năng thông báo lên Loa.
+Volume Set: Thiết lập Âm lượng cho Loa. ( từ 0.1 đến 1).
+Text-to-Speech Service Provider: Chọn Ngôn ngữ.
+Media Player: Nhập Tiêu đề cho thông báo trên điện thoại.
+Prompt | Number | Delay of Snapshots: Các cài đặt cho AI, Số ảnh cần chụp, Thời gian trễ sau mỗi lần chụp.
+
+Number of Snapshots: Kéo để thiết lập Số ảnh sẽ chụp để so sánh (từ 1 đến 5).
+Delay after Trigger: Kéo để thiết lập Thời gian trễ sau khi Triggers và bắt đầu Snapshots (tính theo ms).
+Delay after Snapshots: Kéo để thiết lập Thời gian trễ sau mỗi lần Snapshots (tính theo ms).
+AI Prompt: Câu lệnh cho AI phân tích. Bạn có thể thay đổi câu lệnh mặc định.
+Custom Actions:
+
+Enable Custom Actions: Chọn Enable Custom Actions nếu bạn muốn thêm các Hành động khác để thực hiện trong Automation.
+Custom Actions: Thêm các hành động tùy chọn để thực hiện trong Automation.
+Global Conditions:
+
+Add Condition(s) to run this Automation: Thêm điều kiện để chạy Automation. Automation chỉ chạy khi Điều kiện này Đúng.
+Is it an iOS device?:
+
+Is it an iOS device?: Bật nếu thiết bị muốn thông báo Mobile App Notify chạy iOS, Mặc định là Android.
+Cần Có = *
