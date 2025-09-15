@@ -73,9 +73,14 @@ Blueprint này cho phép **chụp ảnh từ camera**, **phân tích bằng AI**
 ---
 
 ## 📷 Demo
-*(Bạn có thể thêm ảnh minh họa hoặc screenshot giao diện cài đặt ở đây)*  
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/83ed0451-b896-4a7c-a607-61c523f47c2c" />
+
+<img width="1082" height="937" alt="image" src="https://github.com/user-attachments/assets/05392bdb-4cbf-4550-959c-8d8368ed8b72" />
+
+<img width="1054" height="883" alt="image" src="https://github.com/user-attachments/assets/3e146d8f-01fb-4419-b3d7-52d62344c61d" />
+
+
+
 
 ---
 
-## 📄 Giấy phép
-MIT License  
